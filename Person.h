@@ -15,12 +15,6 @@ public:
     // Return true if the addition is successful; otherwise, return false
     virtual bool SetCourse(shared_ptr<Course> Course, string Action) = 0; // Action = "ENROLL" or "TEACH"
 
-    // Add Person to Previous Course
-
-    
-    // Return true if the addition is successful; otherwise, return false
-    virtual bool SetCourse(shared_ptr<Course> Course, string Action) = 0;
-
     // Remove Person from Course
     // Return true if the removal is successful; otherwise, return false
     virtual bool RemoveCourseFromPerson(shared_ptr<Course> Course, string Action) = 0; // Action = "REMOVE_ENROLLED" or "REMOVE_TEACHING"
